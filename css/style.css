@@ -1,0 +1,207 @@
+body {
+   font-family: "Roboto", "Arial", sans-serif;
+   font-size: 16px;
+   color: black;
+   line-height: 22px;
+   font-weight: bold;
+   margin: 0;
+   padding: 0;
+}
+
+h1 {
+   font-size: 60px;
+   line-height: 60px;
+   margin: 0 0 20px;
+}
+
+h2 {
+   font-size: 35px;
+   line-height: 41px;
+   margin: 0;
+ }
+
+h3 {
+   font-size: 24px;
+   color: 323232;
+   line-height: 30px;
+   font-weight: medium;
+   margin: 0;
+}
+
+.container {
+   width: 1146px;
+   margin: 0 auto;
+   padding: 0 27px;
+   outline: 2px solid #bdbebd;
+}
+
+.index-logo {
+   float: left;
+   outline: 2px solid black;
+   width: 160px;
+   min-height: 80px;
+}
+
+.main-navigation {
+   float: left;
+   margin: 0 5px;
+   height: 85px;
+   outline: 2px solid black;
+   width: 530px;
+}
+
+.user-block {
+   float: right;
+   outline: 2px solid black;
+   min-height: 120px;
+   width: 400px;
+}
+
+.breadcrumbs {
+   float: left;
+   outline: 2px solid black;
+   width: 300px;
+   margin-top: 5px;
+   min-height: 30px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.banner {
+  outline: 2px solid black;
+   min-height: 451px;
+   margin-bottom: 30px;
+   margin-top: 45px;
+}
+
+.action {
+  outline: 2px solid black;
+  margin-bottom: 30px;
+}
+
+.raspberry {
+  float:left;
+  outline: 2px solid red;
+   min-height: 230px;
+   width: 560px;   
+}
+
+.chocolate {
+  float:right;
+  outline: 2px solid red;
+   min-height: 230px;
+   width: 560px;
+}
+
+.title1 {
+  margin: 0;
+  outline: 2px solid red;
+  min-height: 30px;
+}
+
+.filters {
+  outline: 2px solid black;
+  min-height: 180px;
+  margin-bottom: 8px;
+}
+
+.hit {
+   outline: 2px solid black;
+   /* margin-bottom: 30px; */
+}
+
+.items {
+  outline: 2px solid black;
+}
+
+.item {
+  float: left;
+  outline: 2px solid red;
+   min-height: 360px;
+   width: 267px;
+   margin-right: 26px;
+}
+
+.item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.advantages {
+  outline: 2px solid black;
+   min-height: 305px;
+   margin-bottom: 40px;
+   margin-top: 15px;
+}
+
+.content {
+  outline: 2px solid black;
+  margin-bottom: 38px;
+}
+
+.news {
+  float:left;
+  outline: 2px solid red;
+   min-height: 220px;
+   width: 560px;   
+}
+
+.subscribe {
+  float:right;
+  outline: 2px solid red;
+   min-height: 220px;
+   width: 560px;
+}
+
+.pagination {
+  outline: 2px solid black;
+  min-height: 113px;
+}
+
+.passageway {
+  outline: 2px solid red;
+  position: relative;
+}
+
+.map {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.address {
+  /*сделать рамку, чтоб не схлопывались маргины*/
+  outline: 2px solid black;
+  min-height: 430px;
+}
+
+p {
+  margin: 0;
+}
+
+.social {
+   float:left;
+   outline: 2px solid red;
+   margin-right: 25px;
+   min-height: 105px;
+   width: 267px; 
+
+}
+
+.info{
+   float:left;
+   outline: 2px solid red;
+   min-height: 105px;
+   width: 560px; 
+}
+
+.copyright {
+   float: right;
+   outline: 2px solid red;
+   min-height: 105px;
+   width: 267px; 
+}
