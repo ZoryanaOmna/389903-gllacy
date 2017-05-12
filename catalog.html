@@ -19,7 +19,6 @@
             <div class="ls">
             <ul class="list-submenu">
               <li class="list-sub"><a href="#">Новинки</a></li>
-              <hr width="128px" color="#d1d0ce" size="1px">
              <li><a href="#">Сливочное</a></li>
              <li><a href="#">Щербеты</a></li>
              <li><a href="#">Фруковый лед</a></li>
@@ -55,7 +54,29 @@
             </form>
           </div>
         </div>
-          <a class="bascet" href="#">Пусто</a>
+          <a class="bascet bas" href="#">2 товара</a>
+          <div class="bs">
+          <div class="bascet-submenu">
+          <table>
+             <tr>
+               <td><button class="bascet-submenu-close" type="button" title="Закрыть">Закрыть</button></td>
+               <td class="cell1"><img src="img/icons/iccream1.png" alt="icecream"></td>
+               <td>Пломбир с апельсиновым джемом</td>
+               <td>1,5 кг х <span>200 руб.</span></td>
+               <td>300 руб.</td>
+              </tr>
+              <tr>
+                <td><button class="bascet-submenu-close type2" type="button" title="Закрыть">Закрыть</button></td>
+                <td class="cell1"><img src="img/icons/iccream2.png" alt="icecream"></td>
+                <td class="cell">Клубничный пломбир с присыпкой из белого шоколада</td>
+                <td>1,5 кг х <span>300 руб.</span></td>
+                <td>450 руб.</td>
+              </tr>
+            </table>
+           <p>Итого: 750 руб.</p>
+           <input class="choice" type="submit" value="Оформить заказ">
+          </div>
+          </div>
         </div>
         <p class="work-hours">С 10 до 20, ежедневно</p>
           <b>8 812 450-25-25</b>
@@ -75,14 +96,20 @@
           <div class="sorting">
           <p>Сортировка:</p>
           <select name="list">
-           <option value="popularity">по популярности</option>
+            <option>по популярности</option>
+            <option>сначала дорогие</option>
+            <option>сначала недорогие</option>
+            <option>по жирности</option>
            </select>
          </div>
          <div class="price-to">
-          <p>Цена: 100 руб.- 500 руб.</p>
+          <p>Цена: 100 руб. - 500 руб.</p>
           <div class="range">
-           <input type="range" min="100" max="500">
-         </div>
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="circle-style circle1"></div>
+            <div class="circle-style circle2"></div>
+          </div>
          </div>
          <div class="fat">
           <p>Жирность:</p>
