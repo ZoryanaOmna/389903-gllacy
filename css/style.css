@@ -568,7 +568,7 @@ table span {
  background: #b2c1b7;
 }
 
-.slide  {
+.slide {
   margin: 0 0 20px;
   padding: 229px 238px;
   padding-bottom: 0;
@@ -726,8 +726,8 @@ table span {
   background-color: #f8f7f4;
   border-radius: 50%;
   cursor: pointer;
-
 }
+
 .circle-style:hover {
   margin-top: -12px;
   width: 24px;
@@ -1419,6 +1419,7 @@ textarea.input {
   font-weight: 700;
   color: #323232;
 }
+
 .input:empty:focus + .lable_focus {
   color: #8fbdeb;
 }
