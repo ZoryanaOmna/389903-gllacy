@@ -40,7 +40,7 @@ h2 {
   margin-top: 8px;
 }
 
-.index-logo a{
+.index-logo a {
   margin-top: 1px;
 }
 
@@ -111,7 +111,7 @@ a {
   -5px 0px 35px #6c6d6c;
 }
 
-.sub-menu .list-submenu{
+.sub-menu .list-submenu {
   padding-bottom: 5px;
 }
 
@@ -701,7 +701,7 @@ table span {
   border-radius: 50px;
 }
 
-.line1{
+.line1 {
   width: 189px;
   height: 4px;
   background-color: #cbd4cd;
@@ -717,7 +717,7 @@ table span {
   background-color: #fff;
 }
 
-.circle-style{
+.circle-style {
   position: absolute;
   top: 50%;
   margin-top: -10px;
@@ -734,11 +734,11 @@ table span {
   height: 24px;
 }
 
-.circle1{
+.circle1 {
   left: 36px;
 }
 
-.circle2{
+.circle2 {
   right: 68px;
 }
 
@@ -905,7 +905,7 @@ input[type="checkbox"]:checked + label span {
   margin-left: 30px;
 }
 
-.item:hover > a.choice{
+.item:hover > a.choice {
   position: absolute;
   bottom: -24px;
   display: block;
