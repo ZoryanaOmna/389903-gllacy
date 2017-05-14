@@ -10,16 +10,16 @@ body {
 }
 
 .icecream {
-  background: #849d8f url(../img/pictures/icream.png) no-repeat top center;
+  background: #849d8f url("../img/pictures/icream.png") no-repeat top center;
 }
 
 /*
 .icecream-second {
-  background: #909eae url(../img/pictures/icream1.png) no-repeat top center;
+  background: #909eae url("../img/pictures/icream1.png") no-repeat top center;
 }
 
 .icecream-third {
-  background: #9e8c85 url(../img/pictures/icream2.png) no-repeat top center;
+  background: #9e8c85 url("../img/pictures/icream2.png") no-repeat top center;
 }
 */
 
@@ -115,7 +115,7 @@ a {
   padding-bottom: 5px;
 }
 
-.list-submenu a  {
+.list-submenu a {
   display: block;
   padding: 7px 20px;
   margin: 1px 0;
@@ -888,7 +888,7 @@ input[type="checkbox"]:checked + label span {
   width: 35px;
   height: 40px;
   line-height: 44px;
-  background: url(../img/icons/r.png) no-repeat 3px 0px;
+  background: url("../img/icons/rouble.png") no-repeat 3px 0px;
 }
 
 .item .hit-logo {
