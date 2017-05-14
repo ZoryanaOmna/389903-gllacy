@@ -28,16 +28,6 @@ h2 {
   line-height: 41px;
  }
 
-h3 {
-  margin: 0;
-  padding: 23px 20px 0;
-  font-size: 24px;
-  word-spacing: 0.3px;
-  line-height: 30px;
-  font-weight: 500;
-  color: #323232;
-}
-
 .container {
   width: 1146px;
   margin: 0 auto;
@@ -952,6 +942,16 @@ input[type="checkbox"]:checked + label span {
   border-radius: 13px;
 }
 
+.advantages-head {
+  margin: 0;
+  padding: 23px 20px 0;
+  font-size: 24px;
+  word-spacing: 0.3px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #323232;
+}
+
 p {
   margin: 0;
   font-size: 16px;
@@ -1368,9 +1368,13 @@ textarea.input {
 }
 
 .form-title {
-  padding: initial;
   padding-bottom: 3px;
+  margin: 0;
+  font-size: 24px;
+  word-spacing: 0.3px;
   line-height: 28px;
+  font-weight: 500;
+  color: #323232;
 }
 
 :focus::-webkit-input-placeholder {
